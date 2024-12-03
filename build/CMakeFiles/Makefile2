@@ -62,70 +62,70 @@ CMAKE_BINARY_DIR = C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Linked_tree/all
+all: Linked_list/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: Linked_tree/codegen
+codegen: Linked_list/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: Linked_tree/preinstall
+preinstall: Linked_list/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Linked_tree/clean
+clean: Linked_list/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Linked_tree
+# Directory level rules for directory Linked_list
 
 # Recursive "all" directory target.
-Linked_tree/all: Linked_tree/CMakeFiles/MyProgram.dir/all
-.PHONY : Linked_tree/all
+Linked_list/all: Linked_list/CMakeFiles/MyProgram.dir/all
+.PHONY : Linked_list/all
 
 # Recursive "codegen" directory target.
-Linked_tree/codegen: Linked_tree/CMakeFiles/MyProgram.dir/codegen
-.PHONY : Linked_tree/codegen
+Linked_list/codegen: Linked_list/CMakeFiles/MyProgram.dir/codegen
+.PHONY : Linked_list/codegen
 
 # Recursive "preinstall" directory target.
-Linked_tree/preinstall:
-.PHONY : Linked_tree/preinstall
+Linked_list/preinstall:
+.PHONY : Linked_list/preinstall
 
 # Recursive "clean" directory target.
-Linked_tree/clean: Linked_tree/CMakeFiles/MyProgram.dir/clean
-.PHONY : Linked_tree/clean
+Linked_list/clean: Linked_list/CMakeFiles/MyProgram.dir/clean
+.PHONY : Linked_list/clean
 
 #=============================================================================
-# Target rules for target Linked_tree/CMakeFiles/MyProgram.dir
+# Target rules for target Linked_list/CMakeFiles/MyProgram.dir
 
 # All Build rule for target.
-Linked_tree/CMakeFiles/MyProgram.dir/all:
-	$(MAKE) $(MAKESILENT) -f Linked_tree\CMakeFiles\MyProgram.dir\build.make Linked_tree/CMakeFiles/MyProgram.dir/depend
-	$(MAKE) $(MAKESILENT) -f Linked_tree\CMakeFiles\MyProgram.dir\build.make Linked_tree/CMakeFiles/MyProgram.dir/build
+Linked_list/CMakeFiles/MyProgram.dir/all:
+	$(MAKE) $(MAKESILENT) -f Linked_list\CMakeFiles\MyProgram.dir\build.make Linked_list/CMakeFiles/MyProgram.dir/depend
+	$(MAKE) $(MAKESILENT) -f Linked_list\CMakeFiles\MyProgram.dir\build.make Linked_list/CMakeFiles/MyProgram.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=1,2,3,4 "Built target MyProgram"
-.PHONY : Linked_tree/CMakeFiles/MyProgram.dir/all
+.PHONY : Linked_list/CMakeFiles/MyProgram.dir/all
 
 # Build rule for subdir invocation for target.
-Linked_tree/CMakeFiles/MyProgram.dir/rule: cmake_check_build_system
+Linked_list/CMakeFiles/MyProgram.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Linked_tree/CMakeFiles/MyProgram.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Linked_list/CMakeFiles/MyProgram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 0
-.PHONY : Linked_tree/CMakeFiles/MyProgram.dir/rule
+.PHONY : Linked_list/CMakeFiles/MyProgram.dir/rule
 
 # Convenience name for target.
-MyProgram: Linked_tree/CMakeFiles/MyProgram.dir/rule
+MyProgram: Linked_list/CMakeFiles/MyProgram.dir/rule
 .PHONY : MyProgram
 
 # codegen rule for target.
-Linked_tree/CMakeFiles/MyProgram.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f Linked_tree\CMakeFiles\MyProgram.dir\build.make Linked_tree/CMakeFiles/MyProgram.dir/codegen
-.PHONY : Linked_tree/CMakeFiles/MyProgram.dir/codegen
+Linked_list/CMakeFiles/MyProgram.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Linked_list\CMakeFiles\MyProgram.dir\build.make Linked_list/CMakeFiles/MyProgram.dir/codegen
+.PHONY : Linked_list/CMakeFiles/MyProgram.dir/codegen
 
 # clean rule for target.
-Linked_tree/CMakeFiles/MyProgram.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Linked_tree\CMakeFiles\MyProgram.dir\build.make Linked_tree/CMakeFiles/MyProgram.dir/clean
-.PHONY : Linked_tree/CMakeFiles/MyProgram.dir/clean
+Linked_list/CMakeFiles/MyProgram.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Linked_list\CMakeFiles\MyProgram.dir\build.make Linked_list/CMakeFiles/MyProgram.dir/clean
+.PHONY : Linked_list/CMakeFiles/MyProgram.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

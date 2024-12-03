@@ -40,7 +40,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/CMakeLists.txt"
-  "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_tree/CMakeLists.txt"
+  "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_list/CMakeLists.txt"
   "CMakeFiles/3.31.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeRCCompiler.cmake"
@@ -56,10 +56,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Linked_tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Linked_list/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Linked_tree/CMakeFiles/MyProgram.dir/DependInfo.cmake"
+  "Linked_list/CMakeFiles/MyProgram.dir/DependInfo.cmake"
   )

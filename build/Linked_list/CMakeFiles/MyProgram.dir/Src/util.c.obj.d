@@ -1,5 +1,5 @@
-Linked_tree/CMakeFiles/MyProgram.dir/Src/util.c.obj: \
- C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Linked_tree\Src\util.c \
+Linked_list/CMakeFiles/MyProgram.dir/Src/util.c.obj: \
+ C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Linked_list\Src\util.c \
  C:/msys64/mingw64/include/stdlib.h C:/msys64/mingw64/include/corecrt.h \
  C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \

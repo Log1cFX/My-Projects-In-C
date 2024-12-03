@@ -125,7 +125,7 @@ MyProgram: cmake_check_build_system
 
 # fast build rule for target.
 MyProgram/fast:
-	$(MAKE) $(MAKESILENT) -f Linked_tree\CMakeFiles\MyProgram.dir\build.make Linked_tree/CMakeFiles/MyProgram.dir/build
+	$(MAKE) $(MAKESILENT) -f Linked_list\CMakeFiles\MyProgram.dir\build.make Linked_list/CMakeFiles/MyProgram.dir/build
 .PHONY : MyProgram/fast
 
 # Help Target

@@ -1286,7 +1286,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Linked_tree_BINARY_DIR",
+			"name" : "Linked_list_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1295,10 +1295,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_tree"
+			"value" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list"
 		},
 		{
-			"name" : "Linked_tree_IS_TOP_LEVEL",
+			"name" : "Linked_list_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1310,7 +1310,7 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "Linked_tree_SOURCE_DIR",
+			"name" : "Linked_list_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1319,7 +1319,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_tree"
+			"value" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_list"
 		},
 		{
 			"name" : "MyProject_BINARY_DIR",

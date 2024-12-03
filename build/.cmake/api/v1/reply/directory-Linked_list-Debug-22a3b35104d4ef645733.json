@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "Linked_tree",
-		"source" : "Linked_tree"
+		"build" : "Linked_list",
+		"source" : "Linked_list"
 	}
 }
