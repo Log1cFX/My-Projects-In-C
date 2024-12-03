@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Linked_tree",
+					"jsonFile" : "directory-Linked_tree-Debug-594721f149cdcba45170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Linked_tree",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Linked_tree",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "MyProgram::@645e660fd8bd4dcc7d6d",
+					"jsonFile" : "target-MyProgram-Debug-818fcc70b1e7d2a6e38d.json",
+					"name" : "MyProgram",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build",
+		"source" : "C:/Users/raffi/Documents/GitHub/My-Projects-In-C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

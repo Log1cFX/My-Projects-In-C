@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_tree",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\linked_list.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_tree\\Src\\linked_list.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_tree/Src/linked_list.c",
+  "output": "Linked_tree/CMakeFiles/MyProgram.dir/Src/linked_list.c.obj"
+},
+{
+  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_tree",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\main.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_tree\\Src\\main.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_tree/Src/main.c",
+  "output": "Linked_tree/CMakeFiles/MyProgram.dir/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_tree",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\util.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_tree\\Src\\util.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_tree/Src/util.c",
+  "output": "Linked_tree/CMakeFiles/MyProgram.dir/Src/util.c.obj"
+}
+]
