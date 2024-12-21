@@ -19,3 +19,4 @@ void LinkedList_AddAt(LinkedList *list, int index, int value);
 int LinkedList_GetAt(LinkedList *list, int index);
 void LinkedList_DeleteAt(LinkedList *list, int index);
 void LinkedList_Print(LinkedList *list);
+void LinkedList_PrintEvery1000th(LinkedList *list);

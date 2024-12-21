@@ -2,6 +2,11 @@
     "files.associations": {
         "stdio.h": "c",
         "util.h": "c",
-        "linked_list.h": "c"
-    }
+        "linked_list.h": "c",
+        "compare": "c",
+        "type_traits": "c",
+        "generictype.h": "c",
+        "generic.h": "c"
+    },
+    "workbench.tree.indent": 20
 }

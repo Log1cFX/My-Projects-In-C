@@ -154,3 +154,22 @@ void LinkedList_Print(LinkedList *list)
         printf("%d\n", temp->value);
     }
 }
+
+void LinkedList_PrintEvery1000th(LinkedList *list)
+{
+    Node *temp;
+    Node *head = list->head;
+    int i = 0;
+    while (head != NULL)
+    {
+        temp = head;
+        head = head->next;
+        i++;
+        if (i % 1000 == 0)
+        {
+            printf("%d\n", temp->value);
+            i = 0;
+        }
+    }
+    printf("%d\n", list->tail->value);
+}
