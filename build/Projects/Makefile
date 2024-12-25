@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\\CMakeFiles\progress.marks
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,31 +102,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named MyProgram
-
-# Build rule for target.
-MyProgram: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyProgram
-.PHONY : MyProgram
-
-# fast build rule for target.
-MyProgram/fast:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/build
-.PHONY : MyProgram/fast
 
 # Help Target
 help:
@@ -136,7 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyProgram
 .PHONY : help
 
 
@@ -148,6 +134,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

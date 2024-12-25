@@ -1,20 +1,8 @@
 [
 {
-  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\linked_list.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_list\\Src\\linked_list.c",
-  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_list/Src/linked_list.c",
-  "output": "Linked_list/CMakeFiles/MyProgram.dir/Src/linked_list.c.obj"
-},
-{
-  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\main.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_list\\Src\\main.c",
-  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_list/Src/main.c",
-  "output": "Linked_list/CMakeFiles/MyProgram.dir/Src/main.c.obj"
-},
-{
-  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\util.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Linked_list\\Src\\util.c",
-  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Linked_list/Src/util.c",
-  "output": "Linked_list/CMakeFiles/MyProgram.dir/Src/util.c.obj"
+  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\Main.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Projects\\GenericType\\Src\\Main.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/Main.c",
+  "output": "Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj"
 }
 ]

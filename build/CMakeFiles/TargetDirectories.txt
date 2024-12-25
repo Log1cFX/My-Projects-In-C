@@ -1,5 +1,7 @@
 C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/CMakeFiles/edit_cache.dir
 C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/CMakeFiles/rebuild_cache.dir
-C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list/CMakeFiles/MyProgram.dir
-C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list/CMakeFiles/edit_cache.dir
-C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Linked_list/CMakeFiles/rebuild_cache.dir
+C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/CMakeFiles/edit_cache.dir
+C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/CMakeFiles/rebuild_cache.dir
+C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType/CMakeFiles/MyProgram.dir
+C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType/CMakeFiles/edit_cache.dir
+C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType/CMakeFiles/rebuild_cache.dir

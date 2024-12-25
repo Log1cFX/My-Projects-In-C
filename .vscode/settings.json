@@ -8,5 +8,6 @@
         "generictype.h": "c",
         "generic.h": "c"
     },
-    "workbench.tree.indent": 20
+    "workbench.tree.indent": 20,
+    "C_Cpp.errorSquiggles": "disabled"
 }
