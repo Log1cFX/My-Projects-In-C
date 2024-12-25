@@ -1,8 +1,14 @@
 [
 {
   "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\Main.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Projects\\GenericType\\Src\\Main.c",
-  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/Main.c",
-  "output": "Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\genericType.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Projects\\GenericType\\Src\\genericType.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/genericType.c",
+  "output": "Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj"
+},
+{
+  "directory": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/build/Projects/GenericType",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/MyProgram.dir/includes_C.rsp -g -o CMakeFiles\\MyProgram.dir\\Src\\main.c.obj -c C:\\Users\\raffi\\Documents\\GitHub\\My-Projects-In-C\\Projects\\GenericType\\Src\\main.c",
+  "file": "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/main.c",
+  "output": "Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj"
 }
 ]

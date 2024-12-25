@@ -122,12 +122,12 @@ Projects/GenericType/clean: Projects/GenericType/CMakeFiles/MyProgram.dir/clean
 Projects/GenericType/CMakeFiles/MyProgram.dir/all:
 	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/depend
 	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=1,2 "Built target MyProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=1,2,3 "Built target MyProgram"
 .PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/all
 
 # Build rule for subdir invocation for target.
 Projects/GenericType/CMakeFiles/MyProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/GenericType/CMakeFiles/MyProgram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 0
 .PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/rule

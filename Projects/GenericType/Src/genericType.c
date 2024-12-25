@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #include "genericType.h"
 
 var *set(void *variable)

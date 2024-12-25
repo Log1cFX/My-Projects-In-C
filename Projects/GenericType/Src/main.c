@@ -5,7 +5,6 @@
 int main()
 {
     int temp = 10;
-    void *b = &temp;
-    var *a = set(b);
-    printf("%d", get(a));
+    var *a = set(&temp);
+    printf("%d", *(int*)get(a));
 }

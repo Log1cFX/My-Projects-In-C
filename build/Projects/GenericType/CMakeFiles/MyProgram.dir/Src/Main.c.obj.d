@@ -1,5 +1,5 @@
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj: \
- C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\Main.c \
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj: \
+ C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\main.c \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \

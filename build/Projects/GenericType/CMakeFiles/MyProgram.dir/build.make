@@ -71,34 +71,51 @@ include Projects/GenericType/CMakeFiles/MyProgram.dir/flags.make
 Projects/GenericType/CMakeFiles/MyProgram.dir/codegen:
 .PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/codegen
 
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/flags.make
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/includes_C.rsp
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj: C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/Main.c
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj"
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj -MF CMakeFiles\MyProgram.dir\Src\Main.c.obj.d -o CMakeFiles\MyProgram.dir\Src\Main.c.obj -c C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\Main.c
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/flags.make
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/includes_C.rsp
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj: C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/genericType.c
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj -MF CMakeFiles\MyProgram.dir\Src\genericType.c.obj.d -o CMakeFiles\MyProgram.dir\Src\genericType.c.obj -c C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\genericType.c
 
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MyProgram.dir/Src/Main.c.i"
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\Main.c > CMakeFiles\MyProgram.dir\Src\Main.c.i
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MyProgram.dir/Src/genericType.c.i"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\genericType.c > CMakeFiles\MyProgram.dir\Src\genericType.c.i
 
-Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyProgram.dir/Src/Main.c.s"
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\Main.c -o CMakeFiles\MyProgram.dir\Src\Main.c.s
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyProgram.dir/Src/genericType.c.s"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\genericType.c -o CMakeFiles\MyProgram.dir\Src\genericType.c.s
+
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/flags.make
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/includes_C.rsp
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj: C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Src/main.c
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj: Projects/GenericType/CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj -MF CMakeFiles\MyProgram.dir\Src\main.c.obj.d -o CMakeFiles\MyProgram.dir\Src\main.c.obj -c C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\main.c
+
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MyProgram.dir/Src/main.c.i"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\main.c > CMakeFiles\MyProgram.dir\Src\main.c.i
+
+Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyProgram.dir/Src/main.c.s"
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raffi\Documents\GitHub\My-Projects-In-C\Projects\GenericType\Src\main.c -o CMakeFiles\MyProgram.dir\Src\main.c.s
 
 # Object files for target MyProgram
 MyProgram_OBJECTS = \
-"CMakeFiles/MyProgram.dir/Src/Main.c.obj"
+"CMakeFiles/MyProgram.dir/Src/genericType.c.obj" \
+"CMakeFiles/MyProgram.dir/Src/main.c.obj"
 
 # External object files for target MyProgram
 MyProgram_EXTERNAL_OBJECTS =
 
-Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/Src/Main.c.obj
+Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj
+Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj
 Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/build.make
 Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/linkLibs.rsp
 Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/objects1.rsp
 Projects/GenericType/MyProgram.exe: Projects/GenericType/CMakeFiles/MyProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable MyProgram.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable MyProgram.exe"
 	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\Projects\GenericType && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyProgram.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
