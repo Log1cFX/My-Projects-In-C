@@ -116,17 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyProgram
+# Target rules for targets named Linkedlist
 
 # Build rule for target.
-MyProgram: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyProgram
-.PHONY : MyProgram
+Linkedlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Linkedlist
+.PHONY : Linkedlist
 
 # fast build rule for target.
-MyProgram/fast:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/build
-.PHONY : MyProgram/fast
+Linkedlist/fast:
+	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/build
+.PHONY : Linkedlist/fast
+
+#=============================================================================
+# Target rules for targets named GenericType
+
+# Build rule for target.
+GenericType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GenericType
+.PHONY : GenericType
+
+# fast build rule for target.
+GenericType/fast:
+	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/build
+.PHONY : GenericType/fast
 
 # Help Target
 help:
@@ -136,7 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyProgram
+	@echo ... GenericType
+	@echo ... Linkedlist
 .PHONY : help
 
 

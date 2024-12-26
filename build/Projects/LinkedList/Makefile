@@ -116,25 +116,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Projects/LinkedList/CMakeFiles/MyProgram.dir/rule:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/LinkedList/CMakeFiles/MyProgram.dir/rule
-.PHONY : Projects/LinkedList/CMakeFiles/MyProgram.dir/rule
+Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule:
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule
+.PHONY : Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule
 
 # Convenience name for target.
-MyProgram: Projects/LinkedList/CMakeFiles/MyProgram.dir/rule
-.PHONY : MyProgram
+Linkedlist: Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule
+.PHONY : Linkedlist
 
 # fast build rule for target.
-MyProgram/fast:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/build
-.PHONY : MyProgram/fast
+Linkedlist/fast:
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/build
+.PHONY : Linkedlist/fast
 
 Src/linked_list.obj: Src/linked_list.c.obj
 .PHONY : Src/linked_list.obj
 
 # target to build an object file
 Src/linked_list.c.obj:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/linked_list.c.obj
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/linked_list.c.obj
 .PHONY : Src/linked_list.c.obj
 
 Src/linked_list.i: Src/linked_list.c.i
@@ -142,7 +142,7 @@ Src/linked_list.i: Src/linked_list.c.i
 
 # target to preprocess a source file
 Src/linked_list.c.i:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/linked_list.c.i
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/linked_list.c.i
 .PHONY : Src/linked_list.c.i
 
 Src/linked_list.s: Src/linked_list.c.s
@@ -150,7 +150,7 @@ Src/linked_list.s: Src/linked_list.c.s
 
 # target to generate assembly for a file
 Src/linked_list.c.s:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/linked_list.c.s
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/linked_list.c.s
 .PHONY : Src/linked_list.c.s
 
 Src/main.obj: Src/main.c.obj
@@ -158,7 +158,7 @@ Src/main.obj: Src/main.c.obj
 
 # target to build an object file
 Src/main.c.obj:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/main.c.obj
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/main.c.obj
 .PHONY : Src/main.c.obj
 
 Src/main.i: Src/main.c.i
@@ -166,7 +166,7 @@ Src/main.i: Src/main.c.i
 
 # target to preprocess a source file
 Src/main.c.i:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/main.c.i
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/main.c.i
 .PHONY : Src/main.c.i
 
 Src/main.s: Src/main.c.s
@@ -174,7 +174,7 @@ Src/main.s: Src/main.c.s
 
 # target to generate assembly for a file
 Src/main.c.s:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/main.c.s
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/main.c.s
 .PHONY : Src/main.c.s
 
 Src/util.obj: Src/util.c.obj
@@ -182,7 +182,7 @@ Src/util.obj: Src/util.c.obj
 
 # target to build an object file
 Src/util.c.obj:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/util.c.obj
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/util.c.obj
 .PHONY : Src/util.c.obj
 
 Src/util.i: Src/util.c.i
@@ -190,7 +190,7 @@ Src/util.i: Src/util.c.i
 
 # target to preprocess a source file
 Src/util.c.i:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/util.c.i
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/util.c.i
 .PHONY : Src/util.c.i
 
 Src/util.s: Src/util.c.s
@@ -198,7 +198,7 @@ Src/util.s: Src/util.c.s
 
 # target to generate assembly for a file
 Src/util.c.s:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\MyProgram.dir\build.make Projects/LinkedList/CMakeFiles/MyProgram.dir/Src/util.c.s
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/util.c.s
 .PHONY : Src/util.c.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyProgram
+	@echo ... Linkedlist
 	@echo ... Src/linked_list.obj
 	@echo ... Src/linked_list.i
 	@echo ... Src/linked_list.s

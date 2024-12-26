@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libGeneric.a CMakeFiles/Generic.dir/Src/genericType.c.obj CMakeFiles/Generic.dir/Src/main.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libGeneric.a

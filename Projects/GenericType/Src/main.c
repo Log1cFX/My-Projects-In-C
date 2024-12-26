@@ -4,7 +4,10 @@
 
 int main()
 {
-    int temp = 10;
-    var *a = set(&temp);
-    printf("%d", *(int*)get(a));
+    genericType(int);
+    var *a = set_int(10);
+    printf("%d\n", *get_int(a));
+
+    var *b = set_pointer("Hello World");
+    printf("%s\n",(char*)get_void(b));
 }

@@ -116,25 +116,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Projects/GenericType/CMakeFiles/MyProgram.dir/rule:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/GenericType/CMakeFiles/MyProgram.dir/rule
-.PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/rule
+Projects/GenericType/CMakeFiles/GenericType.dir/rule:
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/GenericType/CMakeFiles/GenericType.dir/rule
+.PHONY : Projects/GenericType/CMakeFiles/GenericType.dir/rule
 
 # Convenience name for target.
-MyProgram: Projects/GenericType/CMakeFiles/MyProgram.dir/rule
-.PHONY : MyProgram
+GenericType: Projects/GenericType/CMakeFiles/GenericType.dir/rule
+.PHONY : GenericType
 
 # fast build rule for target.
-MyProgram/fast:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/build
-.PHONY : MyProgram/fast
+GenericType/fast:
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/build
+.PHONY : GenericType/fast
 
 Src/genericType.obj: Src/genericType.c.obj
 .PHONY : Src/genericType.obj
 
 # target to build an object file
 Src/genericType.c.obj:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.obj
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/genericType.c.obj
 .PHONY : Src/genericType.c.obj
 
 Src/genericType.i: Src/genericType.c.i
@@ -142,7 +142,7 @@ Src/genericType.i: Src/genericType.c.i
 
 # target to preprocess a source file
 Src/genericType.c.i:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.i
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/genericType.c.i
 .PHONY : Src/genericType.c.i
 
 Src/genericType.s: Src/genericType.c.s
@@ -150,7 +150,7 @@ Src/genericType.s: Src/genericType.c.s
 
 # target to generate assembly for a file
 Src/genericType.c.s:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/genericType.c.s
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/genericType.c.s
 .PHONY : Src/genericType.c.s
 
 Src/main.obj: Src/main.c.obj
@@ -158,7 +158,7 @@ Src/main.obj: Src/main.c.obj
 
 # target to build an object file
 Src/main.c.obj:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.obj
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/main.c.obj
 .PHONY : Src/main.c.obj
 
 Src/main.i: Src/main.c.i
@@ -166,7 +166,7 @@ Src/main.i: Src/main.c.i
 
 # target to preprocess a source file
 Src/main.c.i:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.i
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/main.c.i
 .PHONY : Src/main.c.i
 
 Src/main.s: Src/main.c.s
@@ -174,7 +174,7 @@ Src/main.s: Src/main.c.s
 
 # target to generate assembly for a file
 Src/main.c.s:
-	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/Src/main.c.s
+	cd /d C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build && $(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/Src/main.c.s
 .PHONY : Src/main.c.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyProgram
+	@echo ... GenericType
 	@echo ... Src/genericType.obj
 	@echo ... Src/genericType.i
 	@echo ... Src/genericType.s

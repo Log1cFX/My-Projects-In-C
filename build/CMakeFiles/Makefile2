@@ -81,18 +81,22 @@ clean: Projects/clean
 # Directory level rules for directory Projects
 
 # Recursive "all" directory target.
+Projects/all: Projects/LinkedList/all
 Projects/all: Projects/GenericType/all
 .PHONY : Projects/all
 
 # Recursive "codegen" directory target.
+Projects/codegen: Projects/LinkedList/codegen
 Projects/codegen: Projects/GenericType/codegen
 .PHONY : Projects/codegen
 
 # Recursive "preinstall" directory target.
+Projects/preinstall: Projects/LinkedList/preinstall
 Projects/preinstall: Projects/GenericType/preinstall
 .PHONY : Projects/preinstall
 
 # Recursive "clean" directory target.
+Projects/clean: Projects/LinkedList/clean
 Projects/clean: Projects/GenericType/clean
 .PHONY : Projects/clean
 
@@ -100,11 +104,11 @@ Projects/clean: Projects/GenericType/clean
 # Directory level rules for directory Projects/GenericType
 
 # Recursive "all" directory target.
-Projects/GenericType/all: Projects/GenericType/CMakeFiles/MyProgram.dir/all
+Projects/GenericType/all: Projects/GenericType/CMakeFiles/GenericType.dir/all
 .PHONY : Projects/GenericType/all
 
 # Recursive "codegen" directory target.
-Projects/GenericType/codegen: Projects/GenericType/CMakeFiles/MyProgram.dir/codegen
+Projects/GenericType/codegen: Projects/GenericType/CMakeFiles/GenericType.dir/codegen
 .PHONY : Projects/GenericType/codegen
 
 # Recursive "preinstall" directory target.
@@ -112,39 +116,89 @@ Projects/GenericType/preinstall:
 .PHONY : Projects/GenericType/preinstall
 
 # Recursive "clean" directory target.
-Projects/GenericType/clean: Projects/GenericType/CMakeFiles/MyProgram.dir/clean
+Projects/GenericType/clean: Projects/GenericType/CMakeFiles/GenericType.dir/clean
 .PHONY : Projects/GenericType/clean
 
 #=============================================================================
-# Target rules for target Projects/GenericType/CMakeFiles/MyProgram.dir
+# Directory level rules for directory Projects/LinkedList
+
+# Recursive "all" directory target.
+Projects/LinkedList/all: Projects/LinkedList/CMakeFiles/Linkedlist.dir/all
+.PHONY : Projects/LinkedList/all
+
+# Recursive "codegen" directory target.
+Projects/LinkedList/codegen: Projects/LinkedList/CMakeFiles/Linkedlist.dir/codegen
+.PHONY : Projects/LinkedList/codegen
+
+# Recursive "preinstall" directory target.
+Projects/LinkedList/preinstall:
+.PHONY : Projects/LinkedList/preinstall
+
+# Recursive "clean" directory target.
+Projects/LinkedList/clean: Projects/LinkedList/CMakeFiles/Linkedlist.dir/clean
+.PHONY : Projects/LinkedList/clean
+
+#=============================================================================
+# Target rules for target Projects/LinkedList/CMakeFiles/Linkedlist.dir
 
 # All Build rule for target.
-Projects/GenericType/CMakeFiles/MyProgram.dir/all:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/depend
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=1,2,3 "Built target MyProgram"
-.PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/all
+Projects/LinkedList/CMakeFiles/Linkedlist.dir/all: Projects/GenericType/CMakeFiles/GenericType.dir/all
+	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/depend
+	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=4,5,6,7 "Built target Linkedlist"
+.PHONY : Projects/LinkedList/CMakeFiles/Linkedlist.dir/all
 
 # Build rule for subdir invocation for target.
-Projects/GenericType/CMakeFiles/MyProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/GenericType/CMakeFiles/MyProgram.dir/all
+Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/LinkedList/CMakeFiles/Linkedlist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 0
-.PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/rule
+.PHONY : Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule
 
 # Convenience name for target.
-MyProgram: Projects/GenericType/CMakeFiles/MyProgram.dir/rule
-.PHONY : MyProgram
+Linkedlist: Projects/LinkedList/CMakeFiles/Linkedlist.dir/rule
+.PHONY : Linkedlist
 
 # codegen rule for target.
-Projects/GenericType/CMakeFiles/MyProgram.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/codegen
-.PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/codegen
+Projects/LinkedList/CMakeFiles/Linkedlist.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/codegen
+.PHONY : Projects/LinkedList/CMakeFiles/Linkedlist.dir/codegen
 
 # clean rule for target.
-Projects/GenericType/CMakeFiles/MyProgram.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\MyProgram.dir\build.make Projects/GenericType/CMakeFiles/MyProgram.dir/clean
-.PHONY : Projects/GenericType/CMakeFiles/MyProgram.dir/clean
+Projects/LinkedList/CMakeFiles/Linkedlist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/clean
+.PHONY : Projects/LinkedList/CMakeFiles/Linkedlist.dir/clean
+
+#=============================================================================
+# Target rules for target Projects/GenericType/CMakeFiles/GenericType.dir
+
+# All Build rule for target.
+Projects/GenericType/CMakeFiles/GenericType.dir/all:
+	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/depend
+	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles --progress-num=1,2,3 "Built target GenericType"
+.PHONY : Projects/GenericType/CMakeFiles/GenericType.dir/all
+
+# Build rule for subdir invocation for target.
+Projects/GenericType/CMakeFiles/GenericType.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Projects/GenericType/CMakeFiles/GenericType.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\raffi\Documents\GitHub\My-Projects-In-C\build\CMakeFiles 0
+.PHONY : Projects/GenericType/CMakeFiles/GenericType.dir/rule
+
+# Convenience name for target.
+GenericType: Projects/GenericType/CMakeFiles/GenericType.dir/rule
+.PHONY : GenericType
+
+# codegen rule for target.
+Projects/GenericType/CMakeFiles/GenericType.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/codegen
+.PHONY : Projects/GenericType/CMakeFiles/GenericType.dir/codegen
+
+# clean rule for target.
+Projects/GenericType/CMakeFiles/GenericType.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/clean
+.PHONY : Projects/GenericType/CMakeFiles/GenericType.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
