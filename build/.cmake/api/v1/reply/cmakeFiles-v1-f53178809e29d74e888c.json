@@ -217,12 +217,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake"
-		},
-		{
-			"path" : "Projects/LinkedList/CMakeLists.txt"
-		},
-		{
-			"path" : "Projects/GenericType/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

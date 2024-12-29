@@ -41,8 +41,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/CMakeLists.txt"
   "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/CMakeLists.txt"
-  "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/CMakeLists.txt"
-  "C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/CMakeLists.txt"
   "CMakeFiles/3.31.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeRCCompiler.cmake"
@@ -59,12 +57,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projects/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Projects/LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Projects/GenericType/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Projects/LinkedList/CMakeFiles/Linkedlist.dir/DependInfo.cmake"
-  "Projects/GenericType/CMakeFiles/GenericType.dir/DependInfo.cmake"
   )

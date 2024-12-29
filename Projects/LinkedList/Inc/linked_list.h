@@ -1,7 +1,9 @@
-typedef struct node
+#include "genericType.h"
+
+typedef struct Node
 {
-    int value;
-    struct node *next;
+    var *value;
+    struct Node *next;
 } Node;
 
 typedef struct
@@ -12,11 +14,11 @@ typedef struct
 } LinkedList;
 
 LinkedList *LinkedList_CreateEmptyList();
-LinkedList *LinkedList_Create(int *array, int size);
-void LinkedList_AddArray(LinkedList *list, int *array, int size);
-void LinkedList_Add(LinkedList *list, int value);
-void LinkedList_AddAt(LinkedList *list, int index, int value);
-int LinkedList_GetAt(LinkedList *list, int index);
+LinkedList *LinkedList_Create(var *array, int size);
+void LinkedList_AddArray(LinkedList *list, var *array, int size);
+void LinkedList_Add(LinkedList *list, var *value);
+void LinkedList_AddAt(LinkedList *list, var *value, int index);
+var *LinkedList_GetAt(LinkedList *list, int index);
 void LinkedList_DeleteAt(LinkedList *list, int index);
 void LinkedList_Print(LinkedList *list);
 void LinkedList_PrintEvery1000th(LinkedList *list);

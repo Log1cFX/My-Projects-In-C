@@ -7,7 +7,8 @@
         "type_traits": "c",
         "generictype.h": "c",
         "generic.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "time.h": "c"
     },
     "workbench.tree.indent": 20,
     "C_Cpp.errorSquiggles": "disabled"

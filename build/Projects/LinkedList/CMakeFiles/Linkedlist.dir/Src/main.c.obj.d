@@ -241,5 +241,5 @@ Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/main.c.obj: \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h \
  C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/Inc/linked_list.h \
- C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/Inc/util.h \
- C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Inc/genericType.h
+ C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Inc/genericType.h \
+ C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/Inc/util.h

@@ -14,7 +14,7 @@ int main()
     t = clock();
     for (int i = 1; i < 10000000; i++)
     {
-        LinkedList_Add(list, i);
+        LinkedList_Add(list, (var) i);
     }
     t = clock() - t;
     double time_taken = ((double)t) / CLOCKS_PER_SEC;

@@ -115,32 +115,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Linkedlist
-
-# Build rule for target.
-Linkedlist: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Linkedlist
-.PHONY : Linkedlist
-
-# fast build rule for target.
-Linkedlist/fast:
-	$(MAKE) $(MAKESILENT) -f Projects\LinkedList\CMakeFiles\Linkedlist.dir\build.make Projects/LinkedList/CMakeFiles/Linkedlist.dir/build
-.PHONY : Linkedlist/fast
-
-#=============================================================================
-# Target rules for targets named GenericType
-
-# Build rule for target.
-GenericType: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GenericType
-.PHONY : GenericType
-
-# fast build rule for target.
-GenericType/fast:
-	$(MAKE) $(MAKESILENT) -f Projects\GenericType\CMakeFiles\GenericType.dir\build.make Projects/GenericType/CMakeFiles/GenericType.dir/build
-.PHONY : GenericType/fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -149,8 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... GenericType
-	@echo ... Linkedlist
 .PHONY : help
 
 

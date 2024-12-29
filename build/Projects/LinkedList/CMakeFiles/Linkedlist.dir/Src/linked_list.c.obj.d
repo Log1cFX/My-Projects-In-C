@@ -20,4 +20,5 @@ Projects/LinkedList/CMakeFiles/Linkedlist.dir/Src/linked_list.c.obj: \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
  C:/msys64/mingw64/include/errno.h \
  C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/Inc/linked_list.h \
+ C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/GenericType/Inc/genericType.h \
  C:/Users/raffi/Documents/GitHub/My-Projects-In-C/Projects/LinkedList/Inc/util.h

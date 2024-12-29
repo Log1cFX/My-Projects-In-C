@@ -1,26 +1,19 @@
 #include <stdlib.h>
 
-typedef struct
-{
-    void *pointer;
-} var;
-
-var *set_pointer(void *variable);
-
-void *get_void(var *variable);
+#define var void
 
 #define genericType(T)                        \
-    T *get_##T(var *variable)                 \
+    T *Type_get_##T(var *variable)            \
     {                                         \
-        return variable->pointer;             \
+        return variable;                      \
     }                                         \
     /*preferably only used with basic         \
     datatypes like int, char, long, etc... */ \
-    var *set_##T(T variable)                  \
+    T *Type_set_##T(T variable)               \
     {                                         \
         var *a = malloc(sizeof(var));         \
         T *temp = malloc(sizeof(T));          \
         *temp = variable;                     \
-        a->pointer = temp;                    \
+        a = temp;                             \
         return a;                             \
     }
